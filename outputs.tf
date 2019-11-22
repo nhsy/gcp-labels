@@ -1,3 +1,4 @@
 output "rendered" {
-  value = local.common_labels
+  description = "Key / value map"
+  value       = local.common_labels
 }

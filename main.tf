@@ -1,3 +1,4 @@
+
 locals {
   common_labels = {
     business-name          = lower(var.business_name)
